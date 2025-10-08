@@ -5,6 +5,7 @@ import Header from "./header_footer/Header";
 import { ContextApi } from "./contextAPI/ContextApi";
 import Projects from "./components/Projects";
 import Footer from "./header_footer/Footer";
+import Contact from "./components/Contact";
 
 
 export default function App(){
@@ -18,6 +19,7 @@ export default function App(){
         <Herosection />
         <About />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     </section>

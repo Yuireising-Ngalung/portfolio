@@ -27,7 +27,7 @@ export default function Herosection(){
                     whileHover={{scale:0.9}}
                     transition={{duration:.5}}
                     className="border rounded-full py-3 px-7"
-                >Contact Me
+                >Get In Touch
                 </motion.button>
 
                 <motion.button 
