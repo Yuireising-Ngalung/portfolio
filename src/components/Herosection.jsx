@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import profilepic from '../assets/ProfilePic.jpeg';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa6';
+import resume from '../assets/YuireisingResume.pdf';
 
 export default function Herosection(){
     return(<section className="py-15 overflow-hidden md:pt-15 px-2 max-w-[1240px] mx-auto backdrop-blur-sm md:flex md:flex-row-reverse justify-around items-center">
@@ -33,8 +34,8 @@ export default function Herosection(){
                 <motion.button 
                     whileHover={{scale:0.9}}
                     transition={{duration:.5}}
-                    className="border rounded-full py-3 px-7 flex gap-2 justify-center items-center"
-                ><FaDownload /> Resume
+                    className="border rounded-full py-3 px-7"
+                ><a href={resume} download='resume' className='flex gap-2 justify-center items-center'><FaDownload /> Resume</a> 
                 </motion.button>
             </div>
             <div className='flex gap-4 justify-center items-center'>
