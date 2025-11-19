@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import profilepic from '../assets/ProfilePic.jpeg';
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa6';
 import resume from '../assets/YuireisingResume.pdf';
+import { Link } from 'react-router-dom';
 
 export default function Herosection(){
     return(<section className="py-15 overflow-hidden md:pt-15 px-2 max-w-[1240px] mx-auto backdrop-blur-sm md:flex md:flex-row-reverse justify-around items-center">
@@ -40,10 +41,14 @@ export default function Herosection(){
             </div>
             <div className='flex gap-4 justify-center items-center'>
                 <button>
+                    <Link to="https://github.com/Yuireising-Ngalung" target="_blank">
                     <FaGithub className='text-2xl'/>
+                    </Link>
                 </button>
                 <button>
+                    <Link to="https://www.linkedin.com/in/yuireising-ngalung-b846071a4/" target="_blank">
                     <FaLinkedin className='text-2xl'/>
+                    </Link>
                 </button>  
             </div>
         </motion.div>
