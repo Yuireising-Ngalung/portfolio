@@ -36,7 +36,7 @@ export default function Herosection(){
                     whileHover={{scale:0.9}}
                     transition={{duration:.5}}
                     className="border rounded-full py-3 px-7"
-                ><a href={resume} download='resume' className='flex gap-2 justify-center items-center'><FaDownload /> Resume</a> 
+                ><a href={resume} download='Yuireising(RESUME)' className='flex gap-2 justify-center items-center'><FaDownload /> Resume</a> 
                 </motion.button>
             </div>
             <div className='flex gap-4 justify-center items-center'>
